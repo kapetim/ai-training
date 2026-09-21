@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+
+# Models / data — never commit weights or big datasets
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+models/**/weights/
+data/**/raw/

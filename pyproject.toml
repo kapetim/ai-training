@@ -1,0 +1,12 @@
+[project]
+name = "ai-training"
+version = "0.1.0"
+description = "Use a model, improve a model — inference, fine-tuning, datasets, evals."
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

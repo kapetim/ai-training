@@ -12,5 +12,5 @@ venv/
 *.gguf
 *.pt
 *.pth
-models/**/weights/
+src/models/**/weights/
 data/**/raw/

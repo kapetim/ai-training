@@ -6,12 +6,12 @@ Model-based work — **use** a model, **improve** a model.
 
 | Folder | What it is |
 | --- | --- |
-| [`use/`](use) | Inference — run a specific base model (e.g. DeepSeek) on prompts/tasks. |
-| [`improve/`](improve) | Training/fine-tuning — a dataset in, a new model out. |
-| [`datasets/`](datasets) | Data + preprocessing. |
-| [`evals/`](evals) | Score the base model vs the improved one. |
-| [`models/`](models) | Model manifests / configs. |
-| [`notebooks/`](notebooks) | Throwaway experiments. |
+| [`src/use/`](src/use) | Inference — run a specific base model (e.g. DeepSeek) on prompts/tasks. |
+| [`src/improve/`](src/improve) | Training/fine-tuning — a dataset in, a new model out. |
+| [`src/datasets/`](src/datasets) | Data + preprocessing. |
+| [`src/evals/`](src/evals) | Score the base model vs the improved one. |
+| [`src/models/`](src/models) | Model manifests / configs. |
+| [`src/notebooks/`](src/notebooks) | Throwaway experiments. |
 
 ## 🎯 Goal
 
